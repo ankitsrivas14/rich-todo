@@ -1,0 +1,32 @@
+.user-profile {
+  display: flex;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.user-profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.user-profile .user-name {
+  flex: 1;
+}
+
+.user-profile .user-name h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+  
+  span:first-child {
+    top: -3px;
+    position: relative;
+  }
+}
+
+.user-profile .user-name p {
+  margin: 5px 0 0;
+  color: #888;
+  font-weight: 400;
+}
